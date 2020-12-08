@@ -15,7 +15,6 @@
 
     <body>
         <div class="header-border">
-
         
         <header class="header ">
             <nav class="navi">
@@ -25,23 +24,23 @@
                 </a>
                 
                 <ul class="menu">
-                    <li class="menu-list-item">
-                        <a class="menu-link current link" href="index.html">Студия</a>
+                    <li class="menu-list-stud">
+                        <a class="menu-link-stud current link" href="index.html">Студия</a>
                     </li>
-                    <li class="menu-list-item">
-                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                    <li class="menu-list-port">
+                        <a class="menu-link-port link" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="menu-list-item">
-                        <a class="menu-link link" href="#">Контакты</a>
+                    <li class="menu-list-kontakt">
+                        <a class="menu-link-kontakt link" href="#">Контакты</a>
                     </li>
                 </ul>
             </nav>
             
 
                 <address class="address">
-                    <a  class="header-mail link"  href="mail:info@devstudio.com">info@devstudio.com</a>
+                    <a  class="header-mail link" href="mail:info@devstudio.com">info@devstudio.com</a>
                 </address>
-                <address>
+                <address class="address">
                     <a  class="header-tel link" href="tel:+38096111111">+38 096 11 11 11</a>
                 </address>
             
@@ -49,34 +48,20 @@
          </div>
         <main>
             <!--HERO-->
-         <div class="hero-blok">
-             <section class="hero">
-               
-                    <h1 class="hero-list">
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
-                        Эффективные решения <br> для вашего бизнеса
+            <section class="hero">
 
-                    </h1>
-                    <button class="modal-btn" type="button">Заказать услугу </button > 
-            </section>
-         </div>  
+                <div class="hero-blok">
+                    <h1 class="hero-list">Эффективные решения <br> для вашего бизнеса</h1>
+                      <button class="modal-btn" type="button">Заказать услугу </button > 
+                 </div> 
+             </section>
+ 
             <!--description of work-->
             <section class="work-list">
                 <ul class="list-service list">
                     <li class="list-service-item">
                         <h3 class="undertittle">Внимание к деталям</h3>
-                        <p class="designation">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <p class="designation">Идейные соображения, а также <br> начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="list-service-item">
                         <h3 class="undertittle">Пунктуальность</h3>
@@ -97,9 +82,10 @@
 
             <section class="occupation">
 
-                <h2 class="occupation-head"> Чем мы занимаемся</h2>
-
                 <div class="occupation-bloc">
+                 <h2 class="occupation-head">Чем мы занимаемся</h2>
+
+               
                     <ul class="occupation-list list">
                         <li class="occupation-list-item">
 
@@ -111,8 +97,8 @@
                                 height="294">
                         </li>
                         <li class="occupation-list-item">
-
-         <img class="occupation-img-three"
+                            
+                            <img class="occupation-img-three"
                              src="./img/занятие/img(2).png" alt=" женщина держит в руке планшет">
                         </li>
 
@@ -122,33 +108,44 @@
             <!--our team-->
 
             <section class="team">
-            <div class="team-blok">
+                        
                 <h2 class="our-team">Наша команда</h2>
+            <div class= "team-blok">
 
-                <ul class="list-team list">
+                <ul class="our-list list">
+                  
                     <li class="list-team-item">
 
                         <img class="img-team" src="./img/наша-команда/img(3).png" alt="Игорь Демьяненко" width="270" height="260">
+                    <div class="produkt-bloc">
                         <h3 class="lead-team">Игорь Демьяненко</h3>
                         <p class="position-lead" lang="en">Product Designer</p>
+                    </div>
                     </li>
+                  
                     <li class="list-team-item">
 
                         <img class="img-team" src="./img/наша-команда/img(4).png" alt="Ольга Репина" width="270" height="260">
+                    <div class="produkt-bloc">
                         <h3 class="lead-team">Ольга Репина</h3>
                         <p class="position-lead" lang="en">Frontend Developer</p>
+                    </div>
                     </li>
                     <li class="list-team-item">
 
                         <img class="img-team" src="./img/наша-команда/img(5).png" alt="Николай Тарасов" width="270" height="260">
+                         <div class="produkt-bloc">
                         <h3 class="lead-team">Николай Тарасов</h3>
                         <p class="position-lead" lang="en">Marketing</p>
+                         </div>
                     </li>
                     <li class="list-team-item">
 
                         <img class="img-team" src="./img/наша-команда/img(6).png" alt="Михаил Ермаков" width="270" height="260">
+                         <div class="produkt-bloc">
                         <h3 class="lead-team">Михаил Ермаков</h3>
                         <p class="position-lead" lang="en">UI Designer</p>
+                         </div>
                     </li>
                 </ul>
             </div>
@@ -158,16 +155,16 @@
         <footer class="footer">
             <nav class="footer-navi">
                 <a href="#" class="footer-logo link">
-                    <span class="footer-web" lang="en">Web</span><span class="header-studio" lang="en">Studio</span>
+                    <span class="footer-web" lang="en">Web</span><span class="footer-studio" lang="en">Studio</span>
 
                 </a>
                 
                 <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
                 
-                    <address>
+                    <address class="footer-contact">
                         <a  class="footer-mail link" href="mail:info@example.com"  lang="en">info@example.com</a>
                     </address>
-                    <address>
+                    <address  class="footer-contact">
                         <a  class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
                     </address>
                 

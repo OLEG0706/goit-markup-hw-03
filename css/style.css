@@ -3,7 +3,9 @@
     --main-font: #212121;
     --secondory-font:  #757575;
 }
-
+* {
+    box-sizing: border-box;
+}
 
 
 .menu-link{
@@ -14,6 +16,10 @@ line-height: 1.142;
 letter-spacing: 0.02em;
 text-align: left;
 color: var(--main-font);
+}
+.navi{
+    padding-top: 24px;
+padding-bottom: 25px;
 }
 .menu-link.current{
     color: #d11b1b ;
@@ -39,6 +45,48 @@ line-height: 1.142;
 letter-spacing: 0.02em;
 color:var( --secondory-font);
 }
+
+.menu-link-port:focus{
+    color: var(--accent-color);
+}
+
+.menu-link-port:hover{
+    color: var(--accent-color);
+}
+
+.menu-link-port{
+   color: var(--main-font );
+}
+
+.menu-link-kontakt:hover,
+.menu-link-kontakt:focus{
+    color: var(--accent-color);
+}
+.menu-link-kontakt{
+    color: var(--main-font );
+}
+
+.menu-link-kontakt{
+    margin-right: 50px;
+}
+
+.menu-link-stud{
+    color: var(--main-font );
+}
+
+.menu-link-stud.current{
+    color: #d11b1b ;
+}
+
+.menu-link-stud{
+    margin-left: 93px;
+}
+
+.menu-link-stud:hover,
+.menu-link-stud:focus{
+    color: var(--accent-color);
+}
+
 
 .header-mail:hover{
     color: var(--accent-color);
@@ -69,6 +117,19 @@ line-height: 1.191;
 /* identical to box height */
 letter-spacing: 0.03em;
 color: var(--main-font);
+}
+
+.address{
+
+}
+
+.menu-list-stud{
+    margin-right: 50px;
+}
+
+.menu-list-port{
+    margin-right: 50px;
+
 }
 
 .hero-list{
@@ -130,7 +191,10 @@ line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-font);
+
+
 }
+
 
 .our-team{
 font-family: 'Roboto', sans-serif;
@@ -181,8 +245,7 @@ font-size: 26px;
 line-height: 1.191;
 /* identical to box height */
 letter-spacing: 0.03em;
-color: var(--main-font);
-}
+color: #FFFFFF;}
 
 
 .footer-logo{
@@ -211,7 +274,10 @@ font-weight: 400;
 line-height: 1.714;
 letter-spacing: 0.03em;
 text-align: left;
-/*color: #FFFFFF;*/
+color: #FFFFFF;
+ padding-top: 20px;
+
+
 
 }
 
@@ -223,7 +289,7 @@ font-weight: 400;
 line-height: 1.714;
 letter-spacing: 0.03em;
 text-align: left;
-color:   var( --secondory-font);
+color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel{
@@ -234,7 +300,11 @@ font-weight: 400;
 line-height: 1.714;
 letter-spacing: 0.03em;
 text-align: left;
-color:  var( --secondory-font);
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact{
+    padding-top: 9px;
 
 }
 
@@ -514,110 +584,64 @@ color: var( --secondory-font);
 
 .header{
     margin-left: 215px;
-  
-
 }
 
-
-.header-border
-    position: absolute;
+.header-border{
 width: 1600px;
-height: 0px;
 left: 0px;
 top: 80px;
-
 border: 1px solid #ECECEC;
 }
 
-.menu-list-item{
-margin-right: 93px;
+.header-mail{
+margin-left: 280px;
 }
 
-.menu-link{
-    margin-left: 93px;
-
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-}
-
-.header .address{
-    margin-left: auto;
-    margin-right: 50px;
-}
 .header-tel{
-    margin-right: 215px;
+    margin-left: 50px;
 }
 
 .conteyner{
     width:1170px;
-    margin: 0px;
+    margin: auto;
 }
+
 .header-border{
-    position: absolute;
 width: 1600px;
-height: 80px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
-
-
 border: 1px solid #ECECEC;
 }
 
 .hero-blok{
-    position: absolute;
+background-color: #2F303A;
+display: flex;
+justify-content: center;
+align-items: center;
 width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-
-background: #2F303A;
 }
 
 .hero-list{
-    position: absolute;
-    width: 696px;
-    min-height: 400px;
-    left: 452px;
-    top: 280px;
-    
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     
-    /* or 136% */
-    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    min-height: 400px;
-    justify-content: center;
-    align-items: center;
-    
-    
-    color: #FFFFFF;   
-
+    padding-top: 200px;
+    padding-bottom: 280px;
+    color: #FFFFFF; 
   }
 
-  .hero-blok{
-    min-height: 400px;
-justify-content: center;
-align-items: center;
-
+  .hero{
+      min-height: 600px;
+      display: inline-block;
+    
   }
-
 
 .modal-btn{
     position: absolute;
@@ -640,22 +664,118 @@ text-align: center;
 letter-spacing: 0.06em;
 
 color: #FFFFFF;
+}
 
+.logo-link {
+}
+
+.list-service{
+display: flex;
+margin-top: 94px;
+margin-left: 215px;
+margin-right: 215px;
+padding-right: 30px;
+width: 270px;
+}
+
+.list-service li{
+    margin-left: 30px;
+}
+
+.list-service li:first-child{
+    margin-left: 0
+}
+.designation{
+    width: 270px;
+    margin-top: 10px;
+}
+
+.occupation{
+    margin-bottom: 94px;
+}
+
+.occupation-head{
+    margin-top: 94px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.occupation-list{
+    display: flex;
+    justify-content: center;
+}
+
+.occupation-list .occupation-list-item:not(:first-child){
+    margin-left: 30px;
+}
+    
+.occupation-bloc{
+    width: 1600px;
+}
+
+.team-blok{
+    Width:1600px;
+background-color:  #F5F4FA;
 
 }
 
 
 
+.our-list{
+    display: flex ;
+justify-content:center;
+margin-top: 50px;
+
+}
+
+.img-team{
+    margin-top: 50px;
+    
+}
+
+.our-list .list-team-item:not(:first-child){
+    margin-left: 30px;
+}
 
 
+.lead-team{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
+.produkt-bloc{
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+border: 1px solid #eeeeee;
+border-radius: 0px 0px 4px 4px;
+background-color: #FFFFFF;
+}
 
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color:  #F5F4FA;
+    width: 1600px;
 
+}
 
+body * {
+    outline: 1px solid blue;
+}
+.footer{
+    
+width: 1600px;
+height: 252px;
+left: 0px;
+background: #2F303A;
+border-radius: 1px;
 
+}
 
-
-
-
-
-
+.footer-navi{
+    margin-left:  215px;
+    padding-top: 60px;
+}
