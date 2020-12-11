@@ -2,13 +2,14 @@
     --accent-color: #2196F3;
     --main-font: #212121;
     --secondory-font:  #757575;
+    --list-port-gap:30px;
 }
 * {
     box-sizing: border-box;
 }
 
 
-.menu-link{
+.menu-link-port{
 font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 500;
@@ -21,7 +22,7 @@ color: var(--main-font);
     padding-top: 24px;
 padding-bottom: 25px;
 }
-.menu-link.current{
+.menu-link-port.current{
     color: #d11b1b ;
 }
 
@@ -107,6 +108,7 @@ line-height: 1.191;
 /* identical to box height */
 letter-spacing: 0.03em;
 color: var(--accent-color);
+margin-left: 215px;
 }
 .header-studio{
 font-family: 'Raleway', sans-serif;
@@ -570,6 +572,9 @@ color: var( --secondory-font);
 .header{
     display: flex;
     align-items: center;
+    border: 1px solid #ECECEC;
+  
+    width: 1600px;
     
 }
 
@@ -582,9 +587,9 @@ color: var( --secondory-font);
     align-items: center;
 }
 
-.header{
-    margin-left: 215px;
-}
+
+
+
 
 .header-border{
 width: 1600px;
@@ -599,6 +604,7 @@ margin-left: 280px;
 
 .header-tel{
     margin-left: 50px;
+    margin-right: 215px;
 }
 
 .conteyner{
@@ -762,7 +768,7 @@ background-color: #FFFFFF;
 
 }
 
-body * {
+.body * {
     outline: 1px solid blue;
 }
 .footer{
@@ -778,4 +784,69 @@ border-radius: 1px;
 .footer-navi{
     margin-left:  215px;
     padding-top: 60px;
+}
+
+/*------PORTFOLIO--------*/
+
+.filter-portfolio {
+    display: flex;
+    margin-top: 94px;
+    margin-left: 495px;
+
+    width: 1600px;
+    
+}
+
+
+.btn-portfolio:not(:first-child){
+    margin-left: 8px;
+}
+
+.button-filter{
+    padding: 6px 22px;
+    border-radius: 4px;
+
+    
+}
+
+
+.port-list{
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 50px;
+
+        
+}
+
+
+.list{
+    margin-top: 4px;
+}
+
+.list-port{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1*var( --list-port-gap));
+  margin-top: calc(-1 *var( --list-port-gap));
+  
+  
+}
+
+
+.list-port >.lict-item{
+    flex-basis: calc(100%/3- var(--list-port-gap));
+    margin-left: var( --list-port-gap);
+    margin-top: var( --list-port-gap);
+
+    
+    
+}
+
+.port-bloc{
+    padding: 20px 24px;
+}
+
+.filter{
+    margin-top: 100px;
 }
