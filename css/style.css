@@ -10,13 +10,8 @@
 
 
 .menu-link-port{
-font-family: "Roboto", sans-serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.142;
-letter-spacing: 0.02em;
-text-align: left;
-color: var(--main-font);
+
+
 }
 .navi{
     padding-top: 24px;
@@ -81,6 +76,7 @@ color:var( --secondory-font);
 
 .menu-link-stud{
     margin-left: 93px;
+    
 }
 
 .menu-link-stud:hover,
@@ -110,6 +106,11 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 margin-left: 215px;
 }
+
+
+.work-list{
+    padding-top: 94px;
+}
 .header-studio{
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -127,11 +128,36 @@ color: var(--main-font);
 
 .menu-list-stud{
     margin-right: 50px;
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-font);
 }
 
 .menu-list-port{
     margin-right: 50px;
+    font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-font);
 
+}
+
+.menu-list-kontakt{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-font);
+    
 }
 
 .hero-list{
@@ -176,7 +202,7 @@ color: var(--main-font);
 }
 
 .list-service >.list-service-item{
-    margin-top: 94px;
+    
 }
 .designation{
 font-family: 'Roboto', sans-serif;
@@ -350,6 +376,11 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var( --secondory-font);
 }
+
+.port-bloc {
+    border: 1px solid #EEEEEE;
+} 
+
 
 .golde-star-head{
     font-family: 'Roboto', sans-serif;
@@ -577,9 +608,7 @@ color: var( --secondory-font);
     display: flex;
     align-items: center;
     border: 1px solid #ECECEC;
-  
-    width: 1600px;
-    
+      
 }
 
 .navi{
@@ -612,16 +641,13 @@ margin-left: 280px;
 }
 
 .conteyner{
-    width:1170px;
     margin: auto;
 }
 
 .header-border{
-width: 1600px;
-left: 0px;
-top: 0px;
+
 background: #FFFFFF;
-border: 1px solid #ECECEC;
+border-bottom: 1px solid #ECECEC;
 }
 
 .hero-blok{
@@ -630,6 +656,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 1600px;
+padding-top: 200px;
+padding-bottom: 280px;
 }
 
 .hero-list{
@@ -642,8 +670,7 @@ width: 1600px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    
     color: #FFFFFF; 
   }
 
@@ -681,7 +708,7 @@ color: #FFFFFF;
 
 .list-service{
 display: flex;
-margin-top: 94px;
+
 margin-left: 215px;
 margin-right: 215px;
 padding-right: 30px;
@@ -701,11 +728,12 @@ width: 270px;
 }
 
 .occupation{
-    margin-bottom: 94px;
+padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .occupation-head{
-    margin-top: 94px;
+   
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -817,8 +845,8 @@ border-radius: 1px;
     width: 1170px;
     margin-left: 215px;
     margin-right: 215px;
-    margin-top: 50px;
-
+padding-top: 50px;
+padding-bottom: 94px;
         
 }
 
@@ -851,5 +879,4 @@ border-radius: 1px;
 }
 
 .filter{
-    margin-top: 100px;
-}
+padding-top: 100px;}
