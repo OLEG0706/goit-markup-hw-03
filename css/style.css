@@ -750,11 +750,11 @@ padding-bottom: 94px;
 }
     
 .occupation-bloc{
-    width: 1600px;
+max-width: 1600px;
 }
 
 .team-blok{
-    Width:1600px;
+    max-width:1600px;
 background-color:  #F5F4FA;
 
 }
@@ -796,7 +796,7 @@ background-color: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color:  #F5F4FA;
-    width: 1600px;
+    max-width: 1600px;
 
 }
   
@@ -804,7 +804,7 @@ background-color: #FFFFFF;
 
 .footer{
     
-width: 1600px;
+max-width: 1600px;
 height: 252px;
 left: 0px;
 background: #2F303A;
@@ -824,8 +824,6 @@ border-radius: 1px;
     margin-top: 94px;
     margin-left: 495px;
 
-    width: 1600px;
-    
 }
 
 
